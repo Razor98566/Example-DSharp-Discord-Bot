@@ -6,6 +6,7 @@ namespace ExampleBot.PrefixCommands;
 
 public class ExamplePrefixModule : BaseCommandModule
 {
+    //Pretty simple command, reacts to the !greet command with a "Hello There!"
     [Command("greet")]
     public async Task GreetCommand(CommandContext ctx)
     {

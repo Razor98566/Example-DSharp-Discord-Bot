@@ -2,6 +2,7 @@
 
 public class RandomNumberModule
 {
+    //Simple random number generation
     public static long RandomNumber(int min, int max)
     {
         Random r = new Random();
